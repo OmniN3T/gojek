@@ -100,7 +100,7 @@ date_default_timezone_set('Asia/Jakarta');
 echo color("red","[][][][][][][][][][][][][][][][][][][][][]");
 echo color("red","\n[]  Auto Create Gojek X Redeem Voucher  []\n");
 echo color("red","[]  Creator : XTMR                      []\n");
-echo "[]  Version : V3.3                      []\n";
+echo "[]  Version : V3.4                      []\n";
 echo "[]  Time    : ".date('[d-m-Y] [H:i:s]')."   []\n";
 echo "[][][][][][][][][][][][][][][][][][][][][]\n\n";
 
@@ -193,9 +193,9 @@ function change(){
         sleep(3);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
-        $voucher3 = getStr1('"title":"','",',$cekvoucher,"3");
         $voucher1 = getStr1('"title":"','",',$cekvoucher,"1");
         $voucher2 = getStr1('"title":"','",',$cekvoucher,"2");
+        $voucher3 = getStr1('"title":"','",',$cekvoucher,"3");
         $voucher4 = getStr1('"title":"','",',$cekvoucher,"4");
         $voucher5 = getStr1('"title":"','",',$cekvoucher,"5");
         $voucher6 = getStr1('"title":"','",',$cekvoucher,"6");
