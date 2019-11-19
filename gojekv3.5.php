@@ -100,7 +100,7 @@ date_default_timezone_set('Asia/Jakarta');
 echo color("red","[][][][][][][][][][][][][][][][][][][][][]");
 echo color("red","\n[]  Auto Create Gojek X Redeem Voucher  []\n");
 echo color("red","[]  Creator : XTMR                      []\n");
-echo "[]  Version : V3.4                      []\n";
+echo "[]  Version : V3.5                      []\n";
 echo "[]  Time    : ".date('[d-m-Y] [H:i:s]')."   []\n";
 echo "[][][][][][][][][][][][][][][][][][][][][]\n\n";
 
